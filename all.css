@@ -1,0 +1,153 @@
+@import url("http://fonts.cdnfonts.com/css/sf-pro-display");
+* {
+  padding: 0;
+  margin: 0 auto;
+  list-style: none;
+  text-decoration: none;
+  vertical-align: middle;
+}
+
+body {
+  font-family: "SF Pro Display", "Microsoft JhengHei", sans-serif;
+  line-height: 1.5;
+}
+
+.container {
+  width: 1200px;
+}
+
+h1 {
+  font-size: 80px;
+  line-height: 95px;
+  padding-top: 40px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #000;
+}
+
+section {
+  margin-bottom: 64px;
+}
+
+.profilePic {
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+.profilePic img {
+  border-radius: 50%;
+}
+
+.title {
+  font-size: 32px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #000;
+  margin-bottom: 16px;
+}
+
+.title span {
+  padding-left: 16px;
+  color: #a00404;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.list {
+  font-size: 24px;
+}
+
+.list li {
+  margin-bottom: 24px;
+}
+
+.list li:last-child {
+  margin-bottom: 0;
+}
+
+.eduList {
+  font-weight: 300;
+}
+
+.eduList li {
+  margin-bottom: 16px;
+}
+
+.eduList li:last-child {
+  margin-bottom: 0;
+}
+
+.darkArea {
+  background: #415165;
+  padding-top: 24px;
+  padding-bottom: 40px;
+}
+
+.darkArea .subtitle {
+  margin-bottom: 40px;
+  text-align: center;
+  border-bottom: 1px solid #fff;
+  color: #fff;
+}
+
+.darkArea .subtitle span {
+  color: #fff;
+}
+
+.darkArea .skillList {
+  width: 224px;
+  text-align: center;
+  border-left: 1px solid #96a9c4;
+  color: #fff;
+  padding-left: 23px;
+}
+
+.darkArea .skillList li {
+  margin-bottom: 8px;
+}
+
+.workList {
+  border-left: 1px solid #000;
+  padding-left: 24px;
+}
+
+.workList img {
+  display: block;
+  margin: 0;
+  padding: 8px 0;
+}
+
+.workList p {
+  width: 642px;
+  margin: 0;
+  font-size: 20px;
+  margin-bottom: 24px;
+}
+
+.contact .subtitle {
+  margin-bottom: 24px;
+}
+
+.contactList {
+  text-align: center;
+  color: #fff;
+}
+
+.contactList li {
+  margin-bottom: 16px;
+}
+
+.contactList .socialMedia {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 192px;
+  font-size: 48px;
+}
+
+.contactList .socialMedia a {
+  color: #fff;
+}
+
+.contact {
+  padding-bottom: 0;
+}
+/*# sourceMappingURL=all.css.map */

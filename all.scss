@@ -1,0 +1,128 @@
+$accentColor: #a00404;
+$backgroundColor: #415165;
+$lineColor: #96a9c4;
+@import url("http://fonts.cdnfonts.com/css/sf-pro-display");
+* {
+  padding: 0;
+  margin: 0 auto;
+  list-style: none;
+  text-decoration: none;
+  vertical-align: middle;
+}
+body {
+  font-family: "SF Pro Display", "Microsoft JhengHei", sans-serif;
+  line-height: 1.5;
+}
+.container {
+  width: 1200px;
+}
+h1 {
+  font-size: 80px;
+  line-height: 95px;
+  padding-top: 40px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #000;
+}
+section {
+  margin-bottom: 64px;
+}
+.profilePic {
+  img {
+    border-radius: 50%;
+  }
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+.title {
+  font-size: 32px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #000;
+  margin-bottom: 16px;
+  span {
+    padding-left: 16px;
+    color: $accentColor;
+    font-size: 24px;
+    font-weight: 600;
+  }
+}
+.list {
+  font-size: 24px;
+  li {
+    margin-bottom: 24px;
+  }
+  li:last-child {
+    margin-bottom: 0;
+  }
+}
+.eduList {
+  font-weight: 300;
+  li {
+    margin-bottom: 16px;
+  }
+  li:last-child {
+    margin-bottom: 0;
+  }
+}
+.darkArea {
+  background: $backgroundColor;
+  padding-top: 24px;
+  padding-bottom: 40px;
+  .subtitle {
+    margin-bottom: 40px;
+    text-align: center;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    span {
+      color: #fff;
+    }
+  }
+  .skillList {
+    width: 224px;
+    text-align: center;
+    border-left: 1px solid $lineColor;
+    color: #fff;
+    padding-left: 23px;
+    li {
+      margin-bottom: 8px;
+    }
+  }
+}
+
+.workList {
+  border-left: 1px solid #000;
+  padding-left: 24px;
+  img {
+    display: block;
+    margin: 0;
+    padding: 8px 0;
+  }
+  p {
+    width: 642px;
+    margin: 0;
+    font-size: 20px;
+    margin-bottom: 24px;
+  }
+}
+.contact {
+  .subtitle {
+    margin-bottom: 24px;
+  }
+}
+.contactList {
+  text-align: center;
+  color: #fff;
+  li {
+    margin-bottom: 16px;
+  }
+  .socialMedia {
+    display: flex;
+    width: 192px;
+    font-size: 48px;
+    a {
+      color: #fff;
+    }
+  }
+}
+.contact {
+  padding-bottom: 0;
+}
